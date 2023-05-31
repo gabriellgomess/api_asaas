@@ -61,14 +61,19 @@ Os parâmetros dos métodos são:
 
 6 - Excluir um cliente
 
+**Demais métodos estão em desenvolvimento**
+
 ### Arquivos
 - asaas.php
+
 Este script recebe uma requisição HTTP com um parâmetro GET chamado "param" e de acordo com esse parâmetro estabelece a rota com o método.
 
 - api.php
+
 Este arquivo contém a classe AsaasAPI, que representa a API para integração com o Asaas, nesta classe se encontram os métodos e a requisição ao Asaas.
 
 - variaveis_ambiente.php
+
 Este arquivo contém os dados de conexão com o banco de dados e também a api_key de autenticação no Asaas.
 
 
