@@ -14,7 +14,18 @@ Este código busca integrar um sistema, página ou aplicativo à API de cobranç
 - Excluir um cliente
 
 ### Métodos de cobrança
-Em desenvolvimento
+- Criar uma cobrança
+- Criar uma cobrança com cartão de crédito
+- Criar cobrança parcelada (boleto e cartão)
+- Recuperar cobrança única
+- Listar cobranças
+- Atualizar cobrança existente
+- Remover cobrança
+- Restaurar cobrança removida
+- Estornar cobrança
+- Obter QR code para pagamento PIX
+- Obter linha digitável do boleto e código de barras
+
 
 
 ## Como usar
@@ -61,19 +72,36 @@ Os parâmetros dos métodos são:
 
 6 - Excluir um cliente
 
-**Demais métodos estão em desenvolvimento**
+7 - Criar uma cobrança
+
+8 - Criar uma cobrança com cartão de crédito
+
+9 - Criar cobrança parcelada (boleto ou cartão)
+
+10 - Recuperar cobrança única
+
+11 - Listar cobranças
+
+12 - Atualizar cobrança existente
+
+13 - Remover cobrança
+
+14 - Restaurar cobrança removida
+
+15 - Estornar cobrança
+
+16 - Obter QR code para pagamento PIX
+
+17 - Obter linha digitável e código de barras do boleto
 
 ### Arquivos
 - asaas.php
-
 Este script recebe uma requisição HTTP com um parâmetro GET chamado "param" e de acordo com esse parâmetro estabelece a rota com o método.
 
 - api.php
-
 Este arquivo contém a classe AsaasAPI, que representa a API para integração com o Asaas, nesta classe se encontram os métodos e a requisição ao Asaas.
 
 - variaveis_ambiente.php
-
 Este arquivo contém os dados de conexão com o banco de dados e também a api_key de autenticação no Asaas.
 
 
